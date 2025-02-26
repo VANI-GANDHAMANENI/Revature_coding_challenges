@@ -6,4 +6,4 @@ users = [("Alice", 25, "New York"), ("Bob", 17, "Los Angeles"), ("Charlie", 30,
 #when we want to print the city also ,need to use it
 #filter_users={name:(age,city) for name,age,city in users if age>18}
 filter_users={name:age for name,age,city in users if age>18}
-print(filter_user)
+print(filter_users)
